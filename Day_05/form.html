@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab Work</title>
+</head>
+<body>
+    <form action="/Day_05/register.html" method="get">
+        <label for="name">Enter your name:</label>
+        <input type="text" placeholder="name" id="name" name="Name" required minlength="3" maxlength="30">
+        
+        <br><br>
+
+        <label for="email">Enter your email:</label>
+        <input type="email" placeholder="xyz@gmail.com" id="email" name="Email" required>
+
+        <br><br>
+
+        <label for="age">Enter your age:</label>
+        <input type="number" placeholder="age" id="age" name="Age" required min="0" max="100">
+
+        <br><br>
+
+        <label for="gender">Select gender:</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+
+        <br><br>
+
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+    </form>
+</body>
+</html>
