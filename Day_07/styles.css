@@ -1,0 +1,19 @@
+h2{
+    color:red;
+    background-color: yellow;
+}
+
+p{
+    color: brown;
+    background-color: lightgreen;
+}
+
+.special-text{
+    color: blue;
+    background-color: pink;
+}
+
+#title{
+    color:green;
+    background-color: orange;
+}
