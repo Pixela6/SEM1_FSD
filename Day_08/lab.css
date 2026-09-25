@@ -1,0 +1,25 @@
+p{
+    color: blue;
+    text-decoration: cyan wavy underline ;
+    font-size: 50px; 
+    font-weight: bolder;
+    font-family: "Brush Script Mt",cursive;
+}
+
+a{
+    text-decoration:none;
+}
+
+h1{
+    color: red;
+    text-decoration: dotted underline;
+    text-decoration-color: orange;
+    font-family: chiller;
+    font-size: 80px;
+}
+
+#p2{
+    color: gold ;
+    text-decoration: underline;
+    text-decoration-color: violet;
+}
